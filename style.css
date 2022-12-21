@@ -116,9 +116,11 @@ h2 {
     display:flex;
     align-items:center;
     justify-content: space-around;
+    
     width: 60vw;
 
 }
+
 
 .div-image p {
 
@@ -185,5 +187,11 @@ footer {
 
 
 
+}
+
+footer span {
+
+    color:cadetblue;
+    font-weight: bolder;
 }
 
