@@ -13,6 +13,22 @@ header {
     background-color: #191919;
 }
 
+header img {
+
+    height: 8vh;
+    width: auto;
+    border-radius:50%;
+    margin-right: 10px;
+}
+
+.beginning {
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
 
 header nav {
 
@@ -30,12 +46,19 @@ header h1 {
     color: white;
 }
 
+
 header h1 span {
 
-    color: blue;
+    color: cadetblue;
 }
 
-nav ul li {
+header nav a {
+
+    margin: 5px;
+    
+}
+
+nav button {
 
   list-style-type:none; 
   display:inline-block;
@@ -43,20 +66,8 @@ nav ul li {
 
 }
 
-nav ul li a {
 
-  color: white;
-  text-decoration: none;   
-  font-weight: bolder; 
-  text-transform: capitalize; 
-}
 
-nav ul li a:hover {
-
-  color: green; 
-  text-transform: uppercase;
-  
-}
 
 .content {
 
@@ -66,7 +77,7 @@ nav ul li a:hover {
     background-color: #191919;
     width:100%;
     color:white;
-    min-height: 24vh;
+    min-height: 33vh;
     display:flex;
     justify-content: space-around;
     flex-wrap:wrap;
@@ -99,36 +110,44 @@ h2 {
     padding: 5px;
 }
 
+
+.div-image {
+
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    width: 60vw;
+
+}
+
+#projects div {
+
+    border:solid darkblue 3px;
+    transition: .4s;
+}
+
+
+#projects div:hover {
+
+    border: solid 5px gold;
+    transform: scale(1.2);
+   
+}
+
+
 #contact-me {
 
     display:block;
     text-align: center;
 }
 
-#contact-me ul li {
 
-    list-style-type:none; 
-    display:inline-block;
-    padding: 10px 20px;
-    background-color: cadetblue;
-    border-radius: 50px;
-  
-  }
 
-#contact-me ul li a {
 
-    color: white;
-    text-decoration: none;   
-    font-weight: bolder; 
-    text-transform: capitalize; 
-  }
 
-  #contact-me ul li a:hover {
 
-    box-shadow: gold;
-  }
 
-  button {
+button {
 
     background-color: cadetblue;
     color: white;
