@@ -120,6 +120,14 @@ h2 {
 
 }
 
+.div-image p {
+
+    color:cadetblue;
+    font-size: smaller;
+    text-align: center;
+    margin-top: 10px;
+}
+
 #projects div {
 
     border:solid darkblue 3px;
