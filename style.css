@@ -1,84 +1,162 @@
 * {
-
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-display:flex; 
-display:inline-block; 
-background-color: black;
-color: blue;
-
-
-}
-
-
-title {
-
-display: none;
+ 
+    padding:0;  
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
 
 }
 
 header {
 
+    background-color: #191919;
+}
+
+
+header nav {
+
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 10vh;
     width: 100%;
-    height: 20%;
-    border: solid 3px;
-    text-align:left;
-    
-
+    padding: 45px 8% 0 8%;
 
 }
 
-nav li {
+header h1 {
 
-    text-decoration: none;
-    float: right;
-   
-    
-    
+    color: white;
+}
 
+header h1 span {
+
+    color: blue;
+}
+
+nav ul li {
+
+  list-style-type:none; 
+  display:inline-block;
+  padding: 10px 20px;
 
 }
 
-section {
+nav ul li a {
 
-    display:inline-block;
-   
-    
-    border: solid 3px darkblue;
-    width: 48%;
-   
-    margin: 0;
-    padding: 0;
-    
+  color: white;
+  text-decoration: none;   
+  font-weight: bolder; 
+  text-transform: capitalize; 
+}
 
+nav ul li a:hover {
+
+  color: green; 
+  text-transform: uppercase;
+  
 }
 
 .content {
 
-    width: 75%;
     
-    margin: 0;
+    
+    padding: 50px;
+    background-color: #191919;
+    width:100%;
+    color:white;
+    min-height: 24vh;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+
 }
 
-.label {
+h2 {
 
-    width: 20%;
-    margin: 0;
+    color: white;
+    margin: 20px 0;
+}
+
+#about-me {
+
+    
+
+}
+
+#about-me p {
+
+    width:50vw;
+    padding: 12px;
 
 
 }
 
+.realtor {
+
+    color: blue;
+    padding: 5px;
+}
+
+#contact-me {
+
+    display:block;
+    text-align: center;
+}
+
+#contact-me ul li {
+
+    list-style-type:none; 
+    display:inline-block;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    border-radius: 50px;
+  
+  }
+
+#contact-me ul li a {
+
+    color: white;
+    text-decoration: none;   
+    font-weight: bolder; 
+    text-transform: capitalize; 
+  }
+
+  #contact-me ul li a:hover {
+
+    box-shadow: gold;
+  }
+
+  button {
+
+    background-color: cadetblue;
+    color: white;
+    padding:10px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .4s;
+    
+
+  }
+
+button:hover {
+
+    background-color: transparent;
+    border: 2px solid gold;
+    cursor: pointer;
+}
 
 footer {
 
-    width: 100%;
+    background-color: #191919;
+    color:white;
+    padding: 30px;
     text-align: center;
-    
+
 
 
 }
 
-span {
-
-    font-size: larger;
-    font-weight: bolder;
-}
